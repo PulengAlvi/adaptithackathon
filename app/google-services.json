@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "385528715802",
+    "project_id": "adaptithackathon-88557",
+    "storage_bucket": "adaptithackathon-88557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385528715802:android:b88103b85a1105dceacfa3",
+        "android_client_info": {
+          "package_name": "com.example.codingcafe.adaptithackathon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385528715802-02vsgfrdej4mphbc4fsjnaia2fd83204.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codingcafe.adaptithackathon",
+            "certificate_hash": "acc0d8f575442f50f467346c7c887fa7f41f19b7"
+          }
+        },
+        {
+          "client_id": "385528715802-9jpbo9r031nvsbn8pitq5lgb2r0ijk5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2zEUMfoWyX95gl8h2D0cxwC4ZJSu36FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385528715802-9jpbo9r031nvsbn8pitq5lgb2r0ijk5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
