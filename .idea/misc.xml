@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/wwwpu/AndroidStudioProjects/adaptithackathon/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/wwwpu/AndroidStudioProjects/adaptithackathon/app/src/main/res/layout/activity_image_scanner.xml" value="0.2" />
+        <entry key="..\:/Users/wwwpu/AndroidStudioProjects/adaptithackathon/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/wwwpu/AndroidStudioProjects/adaptithackathon/app/src/main/res/layout/activity_profile.xml" value="0.22" />
       </map>
     </option>
   </component>

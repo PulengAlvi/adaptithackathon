@@ -3,6 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.codingcafe.adaptithackathon">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- below line is use to add camera feature in our app -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" /> <!-- permission for internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,8 +22,17 @@
         android:theme="@style/Theme.Adaptithackathon"
         tools:targetApi="31">
         <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".ImageScanner"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
+            <meta-data
+                android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+                android:value="ocr"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
